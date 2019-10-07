@@ -1,7 +1,16 @@
+
+<div class="container m-5 p-5">
+  <div class="form-group">
 <%= form_for(@article) do |f| %>
   <%= f.label :title %>
-  <%= f.text_field :title %>
+  <%= f.text_field :title, class:'form-control sm-3 mb-2' %>
   <%= f.label :content %>
-  <%= f.text_field :content %>
+  <%= f.text_field :content, class:'form-control sm-3 mb-2 pb-5' %>
   <%= f.submit %>
+  </div>
 <% end %>
+<%= link_to 'Voltar para o menu', articles_path, class:'btn bg-light mp-5'%>
+</div>
+
+
+

@@ -1,0 +1,37 @@
+
+@import "bootstrap";
+
+
+.body {
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #fff;
+
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+
+}
+
+h1 h2 {
+  font-weight: 400;
+}

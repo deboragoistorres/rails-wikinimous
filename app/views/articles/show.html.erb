@@ -1,9 +1,10 @@
-<h1>Article</h1>
+  <div class="container m-5 p-5">
   <h2><%= @article.title %></h2>
   <p><%= @article.content %></p>
 
-<%= link_to 'Voltar para o menu', articles_path %>
-<%= link_to 'Editar artigo', edit_article_path %>
+<%= link_to 'Voltar para o menu', articles_path, class:'btn bg-light mp-5' %>
+<%= link_to 'Editar artigo', edit_article_path, class:'btn bg-light mp-5'  %>
 <%= link_to 'Deletar artigo', article_path,
     method: :delete,
-    data: { confirm: "Are you sure?" } %>
+    data: { confirm: "Are you sure?" }, class:'btn bg-light mp-5'  %>
+</div>
